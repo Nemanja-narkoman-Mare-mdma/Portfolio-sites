@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sections/header.css">
     <link rel="stylesheet" href="css/sections/showcase.css">
     <link rel="stylesheet" href="css/sections/overview.css">
     <link rel="stylesheet" href="css/sections/how.css">
@@ -16,16 +17,16 @@
     <title>WARFRAME</title>
 </head>
 <body>
-
+    <!-- Header -->
     <header>
         <nav>
-            <div>
-                <!-- logo -->
+            <div class="logo">
+                <img src="images/logo.png" alt="logo mesa icon">
             </div>
             <ul>
-                <li><a href="#overview"></a></li>
-                <li><a href="#how"></a></li>
-                <li><a href="#weapons"></a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#weapons">Weapons</a></li>
                 <li><a href="#settingUp">Setting Up</a></li>
                 <li><a href="#fashionFrame">Fashionframe</a></li>
                 <li><a href="#launch">Launch</a></li>
@@ -38,17 +39,15 @@
         <h1><span>to Make Through the Warframe</span><br>
             A complete guide for beginners.
         </h1>
-        <div>
-            <!-- .flex-holder -->
-            <div>
-                <!-- flex-item -->
+        <div class="flex-holder">
+            <div class="flex-item">
                 <p>Looking for op build to clear all the content? This completely free guide will provide enough information to guide You through it.</p>
-                <a href="#">
+                <a href="#" class="btn">
                     <!-- .btn -->
                     Get Started
                 </a>
             </div>
-            <div>
+            <div class="flex-item">
                 <!-- flex-item -->
                 <img src="Nema" alt="nema" style="border: 2px solid red;">
             </div>
@@ -59,19 +58,19 @@
     <section id="overview">
         <div class="main-container">
             <h2>Why is this Guide Perfect for Begginers?</h2>
-            <div>
+            <div class="flex-holder">
                 <!-- flex-holder -->
-                <div>
+                <div class="flex-item">
                     <!-- flex-item -->
                     <h3>Easy To use</h3>
                     <p>This build requires almost no effort at all, u preff 4 and everything's dead.</p>
                 </div>
-                <div>
+                <div class="flex-item">
                     <!-- flex-item -->
                     <h3>Cheap to get</h3>
                     <p>Required items and mods cost almost no platinum(ingame currency)</p>
                 </div>
-                <div>
+                <div class="flex-item">
                     <!-- flex-item -->
                     <h3>Adaptive Setup</h3>
                     <p>Build has huge potential in clearing all the content VS everything game has to offer</p>
@@ -89,14 +88,14 @@
     <section id="how">
         <div class="main-container">
             <h2>How It Works?</h2>
-            <div>
+            <div class="flex-holder">
                 <!-- flex-holder -->
-                <div>
+                <div class="flex-item">
                     <!-- flex-item -->
                     <h3>Cause of:</h3>
                     <img src="" alt="Gunslinger">
                 </div>
-                <div>
+                <div class="flex-item">
                     <!-- flex-item -->
                     <h3>Cause of:</h3>
                     <img src="" alt="Anemic Agility">
@@ -110,6 +109,7 @@
 
     <!-- Section #4 right weapons -->
     <section id="weapons">
+        <div class="main-container">
         <h2>Choosing the Right Weapons</h2>
         <h4>
             Which Primary weapon is the best for Mesa?
@@ -123,7 +123,14 @@
                 Which Secondary weapon is the best for Mesa?
             </h4>
             <p>Any weapon with Life Strike mod in it will do.</p>
+        </div>
     </section>
+
+
+    <!-- Setting Up -->
+    <section id="settingUp">
+        <div class="main-container">
+
         <!-- Section #5 Setting Up -->
         <section id="settingUp">
             <h2>Setting Up Your Mesa Build</h2>
@@ -146,6 +153,12 @@
                     <p>If you haven't noticed there is no point of doing this, you will just hate yourself and everyone else. <i>Just play the Prime version.</i></p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Fashionframe -->
+    <section id="fashionFrame">
+        <div class="main-container">
         </section>
         <!-- Section #6 Fashionframe -->
         <section id="fashionFrame">
@@ -160,7 +173,8 @@
                 <p>And some more ways of bragging about your look, and so on...</p>
                 <!-- Pictures or text how to brag -->
             </div>
-        </section>
+        </div>
+    </section>
     
         <!-- Section #7 Launch -->
         <section id="launch">
